@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mmas.money_assistant_2608">
+    package="com.sansoft.moneytracker">
    <application
-        android:label="MMAS"
+        android:label="SanSoft Money Tracker"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
