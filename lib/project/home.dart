@@ -57,7 +57,6 @@ class _HomeState extends State<Home> {
       await rateMyApp.init();
       rateMyApp.conditions.forEach((condition) {
         if (condition is DebuggableCondition) {
-          print(condition.valuesAsString);
           // condition.reset();
         }
       });
