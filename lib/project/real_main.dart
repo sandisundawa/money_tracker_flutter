@@ -1,11 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:money_assistant_2608/project/auth_pages/sign_in.dart';
 import 'database_management/shared_preferences_services.dart';
 import 'localization/app_localization.dart';
-import 'home.dart';
 
 void realMain() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -82,7 +80,7 @@ class _MyAppState extends State<MyApp> {
                 TextSelectionThemeData(cursorColor: Colors.amberAccent),
           ),
           builder: (context, widget) => MediaQuery(
-            data: MediaQuery.of(context).copyWith(textScaleFactor: 1),
+            data: MediaQuery.of(context).copyWith(textScaler: TextScaler.linear(1)),
             child: widget!,
           ),
           home: SignIn(),

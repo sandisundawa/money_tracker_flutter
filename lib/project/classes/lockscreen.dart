@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_lock/flutter_app_lock.dart';
 import 'package:flutter_screen_lock/flutter_screen_lock.dart';
@@ -8,7 +7,6 @@ import 'package:money_assistant_2608/project/localization/methods.dart';
 import 'package:provider/provider.dart';
 
 import '../provider.dart';
-import 'custom_toast.dart';
 
 class MainLockScreen extends StatelessWidget {
   const MainLockScreen({Key? key}) : super(key: key);

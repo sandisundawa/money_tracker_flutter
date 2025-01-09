@@ -1,4 +1,4 @@
-package com.mmas.money_assistant_2608
+package com.sansoft.moneytracker
 
 import io.flutter.embedding.android.FlutterActivity
 
